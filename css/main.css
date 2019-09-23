@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: 1080px;
+}
+
+.wrapper * {
+    border: 2px solid #c9c9c9;
+}
+
+.premises {
+    height: 500px;
+    width: 500px;
+    border: 0;
+}
+
+.roof {
+    width: 500px;
+    height: 200px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 250px 200px 250px;
+    border-color: transparent transparent #D2691E transparent;
+}
+
+.chimney {
+    width: 50px;
+    height: 80px;
+    background: brown;
+}
+
+.walls {
+    width: 500px;
+    height: 300px;
+    background-size: 50px 50px;
+    background-color: #726144;
+    background-image: linear-gradient(90deg, #5a4e39 50%, transparent 50%, transparent);
+}
+
+.window {
+    width: 80px;
+    height: 100px;
+    background: #87CEEB;
+}
+
+.door {
+    width: 100px;
+    height: 250px;
+    background: #2F4F4F;
+}
+
+.premises__1 * {
+    position: fixed;
+}
+
+.chimney__1 {
+    left: 225px;
+    top: 90px
+}
+
+.walls_1 {
+    top: 200px;
+}
+
+.walls_1 > .window__1 {
+    z-index: 1;
+    left: 370px;
+    top: 280px;
+}
+
+.walls_1 > .window__2 {
+    z-index: 1;
+    left: 50px;
+    top: 280px;
+}
+
+.door__1 {
+    left: 200px;
+    top: 250px
+}
+
+.premises__2 * {
+    position: absolute;
+}
+
+.roof__2 {
+    left: 55vh;
+    top: 0vh;
+}
+
+.chimney__2 {
+    left: -2.7vh;
+    top: 9vh;
+}
+
+.walls_2 {
+    left: 55vh;
+    top: 20.3vh
+}
+
+.door__2 {
+    left: 20vh;
+    top: 5vh;
+}
+
+.walls_2 > .window__1 {
+    left: 37.5vh;
+    top: 8vh;
+}
+
+.walls_2 > .window__2 {
+    left: 5vh;
+    top: 8vh;
+}
+
+.premises__3 {
+    margin-top: -102.3vh;
+}
+
+.premises__3 * {
+    position: static;
+    margin-left: 110vh;
+}
+
+.chimney__3 {
+    margin-top: 9vh;
+    margin-left: -3vh;
+}
+.walls_3 {
+    margin-top: -0.45vh;
+}
+.door__3 {
+    margin-top: -13.9vh;
+    margin-left: 20vh;
+}
+
+.walls_3 > .window__1 {
+    float: left;
+    margin-left: 5vh;
+    margin-top: 8vh;
+}
+
+.walls_3 > .window__2 {
+    margin-left: 37.3vh;
+    margin-top: 8vh;
+}
+.premises__4 {
+    position: relative;
+    left: 55vh;
+    top: 0.1vh;
+}
+.premises__4 * {
+    position: relative;
+}
+.roof__4 {
+    top: 0.45vh;
+}
+.chimney__4 {
+    right: 2.8vh;
+    top: 9vh;
+}
+.door__4 {
+    top: -5.8vh;
+    left: 20vh;
+}
+.walls_4 > .window__1 {
+    float: left;
+    left: 5vh;
+    top: 8vh;
+}
+.walls_4 > .window__2 {
+    left: 37.5vh;
+    top: 8vh;
+}
+
+
+
